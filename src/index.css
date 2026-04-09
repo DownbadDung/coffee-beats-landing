@@ -5,6 +5,9 @@
 @tailwind utilities;
 
 @layer base {
+
+  @keyframes bounce { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.2); } } .smiley-logo { animation: bounce 0.5s ease-in-out infinite; }
+  
   :root {
     --background: black;
     --foreground: 0 0% 12%;
