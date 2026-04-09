@@ -45,7 +45,7 @@ const HeroSection = () => {
         {/* Logo / Title with animation */}
         <div className="text-center mb-4 reveal opacity-0">
           <h1 className="font-gothic text-5xl md:text-8xl lg:text-[10rem] text-primary leading-none tracking-wide animate-flicker">
-            DA MARIA
+            Notes 2.0
           </h1>
           <div className="flex items-center justify-center gap-4 mt-2">
             <span className="w-12 md:w-24 h-[1px] bg-primary" />

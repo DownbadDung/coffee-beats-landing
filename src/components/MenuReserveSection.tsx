@@ -118,7 +118,7 @@ const MenuReserveSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
           <div className="reveal opacity-0 text-center md:text-left">
             <h3 className="font-display text-2xl md:text-3xl text-primary font-bold mb-3">
-              🎸 Live Music Nights
+              Live Music Nights
             </h3>
             <p className="font-body text-base md:text-lg text-foreground/80 leading-relaxed">
               Every Friday & Saturday, our stage comes alive with local bands and acoustic artists. 
@@ -127,7 +127,7 @@ const MenuReserveSection = () => {
           </div>
           <div className="reveal opacity-0 animation-delay-200 text-center md:text-left">
             <h3 className="font-display text-2xl md:text-3xl text-primary font-bold mb-3">
-              🥊 Something Unique is Coming
+              Something Unique is Coming
             </h3>
             <p className="font-body text-base md:text-lg text-foreground/80 leading-relaxed">
               We're bringing something you've never seen in a coffee house before — 

@@ -60,21 +60,18 @@ const BookNowSection = () => {
             </div>
             <div className="mt-8 space-y-4">
               <div className="flex items-start gap-3">
-                <span className="text-primary text-xl">☕</span>
                 <div>
                   <h4 className="font-display text-sm font-bold text-primary tracking-wider">PRIVATE EVENTS</h4>
                   <p className="font-body text-sm text-muted-foreground">Host your next gathering with us — birthday, corporate, or just because.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-primary text-xl">🎸</span>
                 <div>
                   <h4 className="font-display text-sm font-bold text-primary tracking-wider">LIVE MUSIC BOOKING</h4>
                   <p className="font-body text-sm text-muted-foreground">Want to perform? Reach out through our event form below.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <span className="text-primary text-xl">🥊</span>
                 <div>
                   <h4 className="font-display text-sm font-bold text-primary tracking-wider">MUAY THAI NIGHTS</h4>
                   <p className="font-body text-sm text-muted-foreground">Coming soon — watch this space for something truly unique.</p>
