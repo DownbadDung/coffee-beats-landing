@@ -111,9 +111,9 @@ const OurJourney = () => {
         />
       </div>
 
-      {/* Newspaper border frame */}
-      <div className="fixed inset-4 md:inset-8 border-2 border-primary pointer-events-none z-30" />
-      <div className="fixed inset-5 md:inset-9 border border-primary/30 pointer-events-none z-30" />
+      {/* Newspaper border frame - static, wraps all content */}
+      <div className="m-4 md:m-8 border-2 border-primary relative">
+        <div className="absolute inset-1 border border-primary/30 pointer-events-none z-30" />
 
       {/* Header */}
       <header className="relative z-40 px-8 md:px-16 pt-8 md:pt-12">
@@ -300,6 +300,8 @@ const OurJourney = () => {
           © 2025 Da Maria Coffee & Music House. All rights reserved.
         </p>
       </footer>
+
+      </div>{/* Close newspaper border frame */}
     </main>
   );
 };
