@@ -300,6 +300,8 @@ const OurJourney = () => {
           © 2025 Da Maria Coffee & Music House. All rights reserved.
         </p>
       </footer>
+
+      </div>{/* Close newspaper border frame */}
     </main>
   );
 };
