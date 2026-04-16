@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-coffee.jpg";
 
 const HeroSection = () => {
@@ -94,6 +95,7 @@ const HeroSection = () => {
           <a href="#menu" className="btn-newspaper-filled text-xs md:text-sm">View Menu</a>
           <a href="#book" className="btn-newspaper text-xs md:text-sm">Book a Table</a>
           <a href="#events" className="btn-newspaper text-xs md:text-sm">Event Booking</a>
+          <Link to="/our-journey" className="btn-newspaper text-xs md:text-sm">Our Journey</Link>
         </div>
 
         {/* Opening hours quick glance */}

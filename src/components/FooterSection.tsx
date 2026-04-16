@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const FooterSection = () => {
   return (
     <footer className="relative paper-texture py-12 border-t-2 border-primary">
@@ -33,6 +35,7 @@ const FooterSection = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-2 text-xs text-muted-foreground font-body">
           <p>© 2025 Da Maria Coffee & Music House. All rights reserved.</p>
           <div className="flex gap-4">
+            <Link to="/our-journey" className="hover:text-primary transition-colors">Our Journey</Link>
             <a href="#" className="hover:text-primary transition-colors">Instagram</a>
             <a href="#" className="hover:text-primary transition-colors">Facebook</a>
             <a href="#" className="hover:text-primary transition-colors">TikTok</a>
