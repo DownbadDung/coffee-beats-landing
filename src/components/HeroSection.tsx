@@ -95,6 +95,7 @@ const HeroSection = () => {
           <a href="#menu" className="btn-newspaper-filled text-xs md:text-sm">View Menu</a>
           <a href="#book" className="btn-newspaper text-xs md:text-sm">Book a Table</a>
           <a href="#events" className="btn-newspaper text-xs md:text-sm">Event Booking</a>
+          <Link to="/promotions" className="btn-newspaper text-xs md:text-sm">Promotions</Link>
           <Link to="/our-journey" className="btn-newspaper text-xs md:text-sm">Our Journey</Link>
         </div>
 
