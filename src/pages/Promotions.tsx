@@ -181,7 +181,7 @@ const Promotions = () => {
         {/* Featured / Headline promo */}
         {promotions.filter((p) => p.highlight).slice(0, 1).map((promo) => (
           <section key={promo.id} className="relative z-20 px-6 md:px-16 lg:px-24 pb-10 max-w-6xl mx-auto">
-            <div className="vintage-label text-[10px] mb-3 mx-auto block w-fit animate-pulse-glow">⚡ TODAY'S HEADLINE ⚡</div>
+            <div className="vintage-label text-[10px] mb-3 mx-auto block w-fit animate-pulse-glow">TODAY'S HEADLINE</div>
             <article className="border-4 border-primary p-6 md:p-10 bg-card relative overflow-hidden">
               <div className="absolute top-2 right-2 w-20 h-20 md:w-28 md:h-28 rounded-full border-2 border-primary/40 flex items-center justify-center rotate-[-12deg] pointer-events-none">
                 <div className="text-center text-primary/60 font-display">
@@ -282,7 +282,7 @@ const Promotions = () => {
                             Present at counter
                           </p>
                           <div className="border-2 border-dashed border-primary px-6 py-4 mb-4 bg-background">
-                            <span className="font-gothic text-3xl md:text-4xl text-primary tracking-wider">
+                            <span className="font-display text-2xl md:text-3xl font-bold text-primary tracking-[0.2em]">
                               {promo.code}
                             </span>
                           </div>
